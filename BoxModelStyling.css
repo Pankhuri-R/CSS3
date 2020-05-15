@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0000ff;
+}
+
+span{
+    color: #7cfc00;
+    background-color: #fafad2;
+}
+
+div{
+    background-color: #fff8dc;
+    color: #dc143c;
+    box-sizing: border-box;
+
+    height: 200px;
+    width: 48%;
+    display: inline-block;
+    margin: 5px;
+    border: 20px solid #000000;
+    padding: 15px;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+main{
+    background-color: #deb887;
+}
