@@ -1,0 +1,36 @@
+nav a{
+    text-align: center;
+    color: #a52a2a;
+    background-color: #cd853f;
+    display: inline-block;
+    width: 20%;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    border-radius: 6px;
+    border: 3px solid #000000;
+    font-size: 125%;
+}
+
+.style{
+    color: #00008b;
+    background-color: #d87093;
+    text-transform: uppercase;
+}
+
+/*
+Universal selector===========
+
+
+*{
+    border-radius: 8px;
+    border: 5px dashed #a52a2a;
+}
+*/
+
+/*
+=========Attribute selector
+*/
+
+a[href$=".edu"]{
+    background-color: #ff7f50;
+}
