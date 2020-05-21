@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+nav{
+    box-sizing: border-box;
+    background-color: #f08080;
+    background-image: linear-gradient(to bottom,#ffc0cb,#ff0088);
+    border: 2px solid #000000;
+    width: 20%;
+    height: 100vh;
+    display: inline-block;
+    overflow: auto;
+    min-width: 125px;
+    margin-right: 15px;
+    line-height: 45px;
+    padding-left: 50px;
+}
+
+nav a{
+    box-sizing: border-box;
+    padding: 4px;
+    border: 1px  #dcdcdc;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    font-size: 125%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+section{
+    font-weight: normal;
+    font-size: 110%;
+
+    display: inline-block;
+    font-size: medium;
+    width: 70%;
+    height: 100vh;
+    overflow: auto;
+
+}
+
+h1{
+    font-size: 175%;
+    font-weight: bolder;
+
+}
+
+p{
+    font-size: 115%;
+    font: italic;
+}
+
+body{
+    margin: 5px;
+    padding: 1%;
+    background-image: url('imgs/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
